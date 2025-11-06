@@ -57,7 +57,7 @@ app.post('/push', (req, res) => {
     };
 });
 
-app.post('/delete', (req, res) => { //not completed
+app.post('/delete', (req, res) => { 
     reqJsonData = req.body;
     if(reqJsonData["index"] <= 0)
     {
